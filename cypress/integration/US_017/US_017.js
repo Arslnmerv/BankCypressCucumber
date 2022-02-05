@@ -2,9 +2,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
    
     return false
   });
-  
-  // "baseUrl": "https://www.gmibank.com",
-  // "integrationFolder": "cypress/integration/api-tests"
  
   import { Given } from "cypress-cucumber-preprocessor/steps";
   
