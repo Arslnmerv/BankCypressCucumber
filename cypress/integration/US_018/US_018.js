@@ -58,10 +58,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
    cy.contains('Create or edit a Customer').scrollIntoView().should('be.visible');
 
 
-
   });
-
-
 
 
   Then ('Edit portal can allow user to create or update the user info',()=>{
@@ -119,8 +116,6 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     
      cy.get('#save-entity').click();
 
-
-  
   });
 
 
