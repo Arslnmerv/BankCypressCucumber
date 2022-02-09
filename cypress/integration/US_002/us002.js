@@ -4,6 +4,7 @@ Cypress.on('uncaught:exception', (err, runnable) => {
   });
   
   import { Given, And, When, Then } from "cypress-cucumber-preprocessor/steps";
+
  
   before(function(){
     cy.fixture('register').then(function(data){

@@ -7,3 +7,4 @@ Feature: US_027 System should allow to delete states using api end point
         Examples:
             | endPoint                               | id    |
             | https://www.gmibank.com/api/tp-states/ | 22716 |
+

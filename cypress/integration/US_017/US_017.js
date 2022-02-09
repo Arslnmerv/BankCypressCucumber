@@ -97,4 +97,5 @@ Then('clicks admin delete buttons', () => {
   cy.get('.modal-title').should('be.visible')
   cy.get('.modal-footer > .btn-danger').click()
   cy.get('.Toastify__toast').should('be.visible')
+
 })
