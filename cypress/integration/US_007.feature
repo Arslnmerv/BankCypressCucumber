@@ -1,6 +1,5 @@
 Feature: US_007 Sistem, geçersiz kimlik bilgileriyle güncelleme yapilmasina izin vermemelidir.
 
-
     Scenario: TC_001 Email id cannot contain just digits or chars without "@" sign or "." extension
         Given user is on GMI Bank page
         Then clicks the profile icon
