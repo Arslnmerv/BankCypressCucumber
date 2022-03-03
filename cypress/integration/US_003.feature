@@ -1,5 +1,6 @@
 Feature: US_003 Regristration page should restrict password usage to a secure high level passcode
 
+
     Scenario: TC_001 There should be at least 1 lowercase char for stronger password and see the level chart change accordingly
         Given user is on GMI Bank page
         Then Click on user button

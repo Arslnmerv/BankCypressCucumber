@@ -66,5 +66,10 @@ Cypress.on('uncaught:exception', (err, runnable) => {
     cy.get('#tp-account-accountStatusType').select('ACTIVE').should('have.text', 'ACTIVE');
 
   });
-  
+  //Then ('admin choose "Active" from dropdown box',()=>{
+   
+  //  cy.get('#tp-account-employee').select('ACTIVE').should('have.text', 'ACTIVE');
+
+//  });
+ 
 
